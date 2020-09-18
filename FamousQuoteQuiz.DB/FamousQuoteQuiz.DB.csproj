@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200917151234_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917151234_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917151358_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917151358_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917152921_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917152921_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917153222_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917153222_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917153551_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917153551_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917154100_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917154100_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917154154_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917154154_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917154305_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917154305_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917154416_AddedGamesTable.cs" />
+    <Compile Remove="Migrations\20200917154416_AddedGamesTable.Designer.cs" />
+    <Compile Remove="Migrations\20200917222923_test.cs" />
+    <Compile Remove="Migrations\20200917222923_test.Designer.cs" />
+    <Compile Remove="Migrations\20200917224215_AddedMiddleTable.cs" />
+    <Compile Remove="Migrations\20200917224215_AddedMiddleTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FamousQuoteQuiz.BL\FamousQuoteQuiz.BL.csproj" />
+  </ItemGroup>
+
+</Project>
